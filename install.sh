@@ -97,7 +97,7 @@ main() {
       echo 'if ! dpkg-query -l zsh > /dev/null; then' >> ~/.bashrc
       echo '    sudo rm -r ~/.oh-my-zsh' >> ~/.bashrc
       echo '    sudo rm .zsh*' >> ~/.bashrc
-      echo '    sh -c "$(curl -fsSL https://raw.githubusercontent.com/bobvanluijt/google-cloud-shell-pro-zsh/master/install.sh)"' >> ~/.bashrc
+      echo '    sh -c "$(curl -fsSL https://raw.githubusercontent.com/CoonCat21/google-cloud-shell-pro-zsh/master/install.sh)"' >> ~/.bashrc
       echo 'fi' >> ~/.bashrc
       echo '$(grep /zsh$ /etc/shells | tail -1)' >> ~/.bashrc
     # Else, suggest the user do so manually.
